@@ -1,0 +1,16 @@
+h2 {
+    color: #7e9601
+}
+
+.disco-box {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 1vh;
+    width: 22vw;
+    height: 30vh;
+    background-color: #af0991
+}
+
+
+
+  
