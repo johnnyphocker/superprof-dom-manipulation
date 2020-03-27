@@ -11,6 +11,8 @@ h2 {
     background-color: #af0991
 }
 
-
+canvas {
+    border: solid black 1px;
+}
 
   
