@@ -81,7 +81,6 @@
     </form> -->
     
 
-    <canvas id='canvas'></canvas>
     <!-- <div>
         <input type="number" placeholder="x" id="x">
         <input type="number" placeholder="y" id="y">
@@ -102,7 +101,7 @@
         <button id="btn">Disparar</button>
     </div> -->
 
-
+    
 
 
 
@@ -142,7 +141,27 @@
     <div class="disco-box"></div>
     <div class="disco-box"></div>
     <div class="disco-box"></div> -->
+
+    <h1>Invaders</h1>
+    <canvas id="canvas"></canvas>
     
-    <script src="js/game1.js"></script>
+    <audio id="boing">
+        <source src="audio/boing.mp3">
+        <source src="audio/boing.ogg">
+    </audio>
+    <audio id="disparo">
+        <source src="audio/disparo.mp3">
+        <source src="audio/disparo.ogg">
+    </audio>
+    <audio id="intro">
+        <source src="audio/intro.mp3">
+        <source src="audio/intro.ogg">
+    </audio>
+    <audio id="fin">
+        <source src="audio/gameOver.mp3">
+        <source src="audio/gameOver.ogg">
+    </audio>
+    
+    <script src="js/invaders.js"></script>
 </body>
 </html>
